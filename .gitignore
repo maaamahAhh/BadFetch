@@ -1,0 +1,15 @@
+.dart_tool/
+pubspec.lock
+
+# Build outputs
+bf.exe
+engine.dll
+engine/engine.lib
+versions.json
+urls.txt
+
+# Native engine build artifacts
+engine/build/
+
+# Nested git repositories
+.git

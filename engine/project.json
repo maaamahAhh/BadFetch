@@ -1,0 +1,23 @@
+{
+  "langrev": "1",
+  "warnings": ["no-unused"],
+  "dependency-search-paths": ["lib"],
+  "dependencies": [],
+  "version": "0.1.0",
+  "sources": ["src/**"],
+  "build-dir": "build",
+  "output": "build",
+  "targets": {
+    "engine": {
+      "type": "dynamic-lib",
+      "target": "windows-x64",
+      "linker-search-paths": ["lib"],
+      "linked-libraries": ["ws2_32", "winhttp"]
+    }
+  },
+  "cpu": "generic",
+  "opt": "O2",
+  "safe": true,
+  "strip-unused": true,
+  "reloc": "pic"
+}
